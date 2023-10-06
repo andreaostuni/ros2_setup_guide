@@ -1,10 +1,10 @@
 # Install Ubuntu desktop
 
-This guide is for installing Ubuntu desktop on a computer that already has Windows 10 installed.
+This guide is for installing Ubuntu desktop on a computer that already has Windows 10 (or Windows 11) installed.
 
 ## Prerequisites
 
-- A computer with Windows 10 installed and at least 25GB of free space.
+- A computer with Windows 10 (or Windows 11) installed and at least 25GB of free space.
 - A USB drive (12GB or above recommended).
 - A working internet connection.
 - A backup is recommended before proceeding.
