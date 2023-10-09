@@ -11,47 +11,56 @@
 
 ### Steps
 install Docker
+
 ```bash
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
 install VSCode (from apt)
+
 ```bash
 
 ```
 
 install VSCode (from snap)
+
 ```bash
 sudo snap install --classic code
 ```
 
 install Nvidia Docker
+
 ```bash
 
 ```
 
 Downlood vscode_workspace from github
+
 ```bash
 
 ```
 
 Open vscode_workspace in VSCode
+
 ```bash
 
 ```
 
 reopen in container
+
 ```bash
 
 ```
 
 modify .devcontainer/devcontainer.json
+
 ```bash
 
 ```
 
 modify .devcontainer/Dockerfile
+
 ```bash
 
 ```

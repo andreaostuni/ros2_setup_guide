@@ -2,16 +2,15 @@
 
 This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that lets you run Linux on Windows without using dual boot or traditional virtual machines.
 
-# Steps
+## Steps
 
 - [Install Linux on Windows with WSL](#install-linux-on-windows-with-wsl)
-- [Steps](#steps)
+  - [Steps](#steps)
   - [Prerequisites](#prerequisites)
   - [1. Install WSL command and Ubuntu](#1-install-wsl-command-and-ubuntu)
   - [2. Verify installation](#2-verify-installation)
   - [3. Install Windows Terminal](#3-install-windows-terminal)
   
-
 ## Prerequisites
 
 - A computer with Windows 10 (version 19041 or higher) or Windows 11.
