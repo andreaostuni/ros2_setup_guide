@@ -9,7 +9,7 @@ This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that le
   - [Prerequisites](#prerequisites)
   - [1. Install WSL command and Ubuntu](#1-install-wsl-command-and-ubuntu)
   - [2. Verify installation](#2-verify-installation)
-  - [3. Install Windows Terminal](#3-install-windows-terminal)
+  - [3. Install Windows Terminal (optional)](#3-install-windows-terminal-optional)
   
 ## Prerequisites
 
@@ -17,7 +17,7 @@ This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that le
 
 ## 1. Install WSL command and Ubuntu
 
-Open PowerShell or Windows Command Prompt in administrator mode by right-clicking and selecting "Run as administrator", enter the wsl --install command, then restart your machine.
+Open PowerShell or Windows Command Prompt in administrator mode by right-clicking and selecting **"Run as administrator"**, enter the wsl --install command, then restart your machine.
 
 ``` PowerShell
 wsl --install -d Ubuntu-22.04
@@ -26,6 +26,10 @@ wsl --install -d Ubuntu-22.04
 ![install_wsl](/wsl2/images/install_wsl.png)
 
 This command will enable the features necessary to run WSL and install the Ubuntu 22.04 distribution of Linux. You can also install other Linux distributions from the Microsoft Store.
+
+Follow the instructions on the screen to add your username and password for the Linux distribution.
+
+**Reboot your machine** to complete the WSL2 install.
 
 ## 2. Verify installation
 
@@ -49,10 +53,16 @@ lsb_release -a
 
 ![ubuntu_version](/wsl2/images/verify_install_ubuntu.png)
 
-## 3. Install Windows Terminal
+## 3. Install Windows Terminal (optional)
 
-Windows Terminal is a new, modern, feature-rich, productive terminal application for command-line users.
-
-Open the Microsoft Store and search for Windows Terminal to install it.
+Windows Terminal is a new, modern, feature-rich, productive terminal application for command-line users. If you don't have it installed, you can install it from the Microsoft Store.
 
 ![windows_terminal](/wsl2/images/windows_terminal.png)
+
+To open Ubuntu in Windows Terminal, click on the down arrow and select Ubuntu 22.04.
+
+![windows_terminal_ubuntu](/wsl2/images/windows_terminal_ubuntu.png)
+
+If you don't see the Ubuntu profile click on the down arrow and select Settings or press ```Ctrl + ,```.
+
+![windows_terminal_settings](/wsl2/images/windows_terminal_settings.png)
