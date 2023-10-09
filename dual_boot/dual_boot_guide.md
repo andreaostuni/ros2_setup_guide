@@ -96,6 +96,10 @@ If your device has Windows BitLocker Drive Encryption enabled then Ubuntu will n
 
 If this is the case you will get a prompt to disable BitLocker in Windows before restarting the Ubuntu installer.
 
+- In Windows, open Settings > type Manage BitLocker in the search box.  Alternatively, open Control Panel > System and Security > BitLocker Drive   Encryption.
+
+- Reboot your computer again, and launch the Ubuntu installer. At this point, you will be able to proceed with the hard disk configuration step.
+
 ![BitLocker](/dual_boot/images/bitlocker.png)
 
 ### 3.4. Installation
