@@ -10,6 +10,7 @@ This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that le
   - [1. Install WSL command and Ubuntu](#1-install-wsl-command-and-ubuntu)
   - [2. Verify installation](#2-verify-installation)
   - [3. Install Windows Terminal (optional)](#3-install-windows-terminal-optional)
+  - [4. References](#4-references)
   
 ## Prerequisites
 
@@ -27,7 +28,7 @@ wsl --install -d Ubuntu-22.04
 
 This command will enable the features necessary to run WSL and install the Ubuntu 22.04 distribution of Linux. You can also install other Linux distributions from the Microsoft Store.
 
-Follow the instructions on the screen to add your username and password for the Linux distribution.
+Follow the instructions on the screen to **add your username and password** for the Linux distribution.
 
 **Reboot your machine** to complete the WSL2 install.
 
@@ -66,3 +67,7 @@ To open Ubuntu in Windows Terminal, click on the down arrow and select Ubuntu 22
 If you don't see the Ubuntu profile click on the down arrow and select Settings or press ```Ctrl + ,``` and do the following:
 
 ![windows_terminal_settings](/wsl2/images/windows_terminal_settings.png)
+
+## 4. References
+
+- [Install WSL on Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)

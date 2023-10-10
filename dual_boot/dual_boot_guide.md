@@ -19,6 +19,7 @@ This guide is for installing Ubuntu desktop on a computer that already has Windo
       - [3.3.3 (Alert) Windows BitLocker is enabled](#333-alert-windows-bitlocker-is-enabled)
     - [3.4. Installation](#34-installation)
       - [3.4.1. Final steps](#341-final-steps)
+  - [4. References](#4-references)
 
 ## Prerequisites
 
@@ -115,3 +116,7 @@ Click Install Now to begin the installation, there will be a short recap of the 
 - After restarting, you will be presented with the GRUB menu. Select Ubuntu to boot into Ubuntu or Windows Boot Manager to boot into Windows.
 - You can now enjoy your dual boot system!
 - Don't forget to update your system and install the latest drivers.
+
+## 4. References
+
+- [Ubuntu installation guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
