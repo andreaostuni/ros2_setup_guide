@@ -15,7 +15,7 @@ Here it is a brief guide to install Docker Engine on Ubuntu 22.04.
   - [2. Linux post-installation steps for Docker Engine](#2-linux-post-installation-steps-for-docker-engine)
     - [2.1. Manage Docker as a non-root user](#21-manage-docker-as-a-non-root-user)
   - [3. Next steps](#3-next-steps)
-  - [3. References](#3-references)
+  - [4. References](#4-references)
 
 ## Prerequisites
 
@@ -98,8 +98,9 @@ If you have an Nvidia GPU, you can install Nvidia Docker to use your GPU with Do
 
 Otherwise, you follow the next steps to install VS Code and the Remote - Containers extension to use Docker with VS Code, follow the [instructions](/dual_boot/vscode_docker.md)
 
-## 3. References
+## 4. References
 
 - [Docker Engine overview](https://docs.docker.com/engine/)
 - [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 - [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
+  

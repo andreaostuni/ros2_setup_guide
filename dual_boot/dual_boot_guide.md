@@ -53,7 +53,7 @@ Select your downloaded ISO, choose your USB flash drive, and then click Flash! t
 The key is usually F12, F10, F2, or Esc.
 *If you are unsure, you can search for the key for your device online.*
 - Once the installer has initialised you will be presented with the option to try Ubuntu or install Ubuntu. Select Install Ubuntu.
-- Select your keyboard layout and click Continue. If you are unsure, select Detect Keyboard Layout. You will be asked to press a few keys so that Ubuntu can detect your keyboard layout. 
+- Select your keyboard layout and click Continue. If you are unsure, select Detect Keyboard Layout. You will be asked to press a few keys so that Ubuntu can detect your keyboard layout.
 
 ### 3.1. RST (Intel Rapid Storage Technology)
 
@@ -120,3 +120,4 @@ Click Install Now to begin the installation, there will be a short recap of the 
 ## 4. References
 
 - [Ubuntu installation guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+  

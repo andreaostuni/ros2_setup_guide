@@ -32,7 +32,7 @@ sudo apt install ./<file>.deb
 # sudo apt-get install -f # Install dependencies
 ```
 
-Installing the .deb package will automatically install the apt repository and signing key to enable auto-updating using the system's package manager. 
+Installing the .deb package will automatically install the apt repository and signing key to enable auto-updating using the system's package manager.
 
 ### 1.2. Install using gpg key and apt repository (alternative)
 
