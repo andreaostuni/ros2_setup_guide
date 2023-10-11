@@ -11,7 +11,7 @@ It diverges in two parts, depending on your operating system and on the type of 
   - [WSL2 Ubuntu](#wsl2-ubuntu)
   - [Mac M1/M2 (experimental)](#mac-m1m2-experimental)
 
-The guide the proceed with the installation of:
+The guide proceed with the installation of:
 
 - Docker (Ubuntu) / Docker Desktop (Windows)
 - Nvidia Docker (optional)
