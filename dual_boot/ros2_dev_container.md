@@ -43,7 +43,7 @@ cd ~ # Navigate to your home directory (or any other directory of your choice)
 git clone https://github.com/athackst/vscode_ros2_workspace.git -b humble
 ```
 
-### 1.1.2 Modify the devcontainer.json
+<!-- ### 1.1.2 Modify the devcontainer.json
 
 Usually using this package the gui won't show up because the DISPLAY environment variable is not set properly.
 
@@ -66,7 +66,7 @@ Open the ```vscode_ros2_workspace/.devcontainer/devcontainer.json``` in the repo
     // "DISPLAY": "${localEnv:DISPLAY}", // Needed for GUI try ":0" for windows
     "DISPLAY": ":0", // <-- Paste the value here
    }
-```
+``` -->
 
 ### 1.1.2 Modify the Dockerfile
 
