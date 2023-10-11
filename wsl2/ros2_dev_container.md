@@ -38,8 +38,32 @@ cd ~ # Navigate to your home directory (or any other directory of your choice)
 ## Clone the repository to your local machine (humble branch)
 git clone https://github.com/athackst/vscode_ros2_workspace.git -b humble
 ```
+### 1.1.2 Modify the devcontainer.json
 
-### 1.1.2 Modify the Dockerfile
+Usually using this package the gui won't show up because the DISPLAY environment variable is not set properly.
+
+In your WSL2 Ubuntu instance
+
+```bash
+echo $DISPLAY
+```
+
+the output should be something like this:
+
+```bash
+:0
+```
+
+Open the ```vscode_ros2_workspace/.devcontainer/devcontainer.json``` in the repository and modify the following lines:
+
+```json
+"containerEnv": {
+    // "DISPLAY": "${localEnv:DISPLAY}", // Needed for GUI try ":0" for windows
+    "DISPLAY": ":0", // <-- Paste the value here
+   }
+```
+
+### 1.1.3 Modify the Dockerfile
 
 Open the ```vscode_ros2_workspace/.devcontainer/Dockerfile``` in the repository and modify the first line:
 
