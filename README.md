@@ -9,6 +9,7 @@ It diverges in two parts, depending on your operating system and on the type of 
   - [Install ROS2](#install-ros2)
   - [Dual boot Ubuntu](#dual-boot-ubuntu)
   - [WSL2 Ubuntu](#wsl2-ubuntu)
+  - [Mac M1/M2 (experimental)](#mac-m1m2-experimental)
 
 The guide the proceed with the installation of:
 
@@ -35,3 +36,14 @@ In alternative, you can use install Ubuntu on WSL2.
 - [Docker Desktop installation](./wsl2/docker_installation.md)
 - [VSCode installation and extensions](./wsl2/vscode_docker.md)
 - [ROS2 Humble dev container](./wsl2/ros2_dev_container.md)
+
+## Mac M1/M2 (experimental)
+
+***Please note that this is an experimental setup and it is not tested***.
+
+If you have a Mac M1/M2, you can install Ubuntu on a virtual machine using UTM.
+
+- [Mac M1/M2 setup guide](./mac_m1/setup_guide.md)
+- [Docker installation](./dual_boot/docker_installation.md)
+- [VSCode installation and extensions](./dual_boot/vscode_docker.md)
+- [ROS2 Humble dev container](./dual_boot/ros2_dev_container.md)
