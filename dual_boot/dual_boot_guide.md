@@ -71,6 +71,9 @@ You will be asked to choose the type of installation. We reccomend normal instal
 
 In Other options, you will be prompted to download updates as well as third-party software that may improve device support and performance (for example, Nvidia graphics drivers) during the installation. It is recommended to check both of these boxes.
 
+##### 3.2.1.1 Secure Boot
+When __"Install third-party software for graphics and Wi-Fi hardware"__ is checked, also the __Secure Boot__ otpion may be checked by default. If you choose to enable __Secure Boot__, reccomended choice for the drivers to work correctly, at the reboot you will be prompted with a [blue screen](https://raw.githubusercontent.com/wiki/hakuna-m/wubiuefi/images/MOK-Perform-Enroll.png) asking to __"Enroll MOK"__. You should proceed following the instructions on the screen and type the __password__ chosen in this step.
+
 ### 3.3. Type of installation
 
 Choose the type of installation you want to perform. **If you are unsure, select Install Ubuntu alongside Windows Boot Manager**.
