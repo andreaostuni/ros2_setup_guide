@@ -2,9 +2,36 @@
 
 ## Install ROS2
 
-### Prerequisites
+The following guide will help you install ROS2 on your machine.
+It diverges in two parts, depending on your operating system and on the type of installation you want to perform.
 
-- A computer running Ubuntu (follow the [Ubuntu setup guide](./dual_boot/dual_boot_guide.md) if you do not have Ubuntu installed).
-- In alternative, you can use a Windows machine with WSL2 and Ubuntu (follow the [WSL2 setup guide](./wsl2/wsl2_setup_guide.md) if you do not have WSL2 and Ubuntu installed).
-- A working internet connection.
-- A backup is recommended before proceeding.
+- [ROS2 Setup Guide](#ros2-setup-guide)
+  - [Install ROS2](#install-ros2)
+  - [Dual boot Ubuntu](#dual-boot-ubuntu)
+  - [WSL2 Ubuntu](#wsl2-ubuntu)
+
+The guide the proceed with the installation of:
+
+- Docker (Ubuntu) / Docker Desktop (Windows)
+- Nvidia Docker (optional)
+- VSCode and VSCode extensions
+- ROS2 Humble dev container
+
+## Dual boot Ubuntu
+
+If you want to install Ubuntu on your machine, follow the setup guide for Ubuntu in dual boot.
+
+- [Dual boot Ubuntu setup guide](./dual_boot/dual_boot_guide.md)
+- [Docker installation](./dual_boot/docker_installation.md)
+- [Nvidia Docker installation](./dual_boot/nvidia_docker.md) (optional)
+- [VSCode installation and extensions](./dual_boot/vscode_docker.md)
+- [ROS2 Humble dev container](./dual_boot/ros2_dev_container.md)
+
+## WSL2 Ubuntu
+
+In alternative, you can use install Ubuntu on WSL2.
+
+- [WSL2 Ubuntu setup guide](./wsl2/wsl2_setup_guide.md)
+- [Docker Desktop installation](./wsl2/docker_installation.md)
+- [VSCode installation and extensions](./wsl2/vscode_docker.md)
+- [ROS2 Humble dev container](./wsl2/ros2_dev_container.md)
