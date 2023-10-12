@@ -15,6 +15,7 @@ This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that le
 ## Prerequisites
 
 - A computer with Windows 10 (version 19041 or higher) or Windows 11.
+- Latest graphics drivers. Try with Windows Update or [here](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps#prerequisites).
 
 ## 1. Install WSL command and Ubuntu
 
