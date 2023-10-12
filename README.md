@@ -7,8 +7,8 @@ It diverges in two parts, depending on your operating system and on the type of 
 
 - [ROS2 Setup Guide](#ros2-setup-guide)
   - [Install ROS2](#install-ros2)
-  - [Dual boot Ubuntu](#dual-boot-ubuntu)
-  - [WSL2 Ubuntu](#wsl2-ubuntu)
+  - [Windows Dual boot Ubuntu](#dual-boot-ubuntu)
+  - [Windows WSL2 Ubuntu](#wsl2-ubuntu)
   - [Mac M1/M2 (experimental)](#mac-m1m2-experimental)
 
 The guide proceed with the installation of:
