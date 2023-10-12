@@ -40,7 +40,7 @@ Clone the following repository to your local machine:
 
 cd ~ # Navigate to your home directory (or any other directory of your choice)
 ## Clone the repository to your local machine (humble branch)
-git clone https://github.com/athackst/vscode_ros2_workspace.git -b humble
+git clone https://github.com/SESASR-Course/vscode_ros2_workspace.git -b humble
 ```
 
 <!-- ### 1.1.2 Modify the devcontainer.json
@@ -94,7 +94,7 @@ Clone the following repository to your local machine:
 
 cd ~ # Navigate to your home directory (or any other directory of your choice)
 ## Clone the repository to your local machine (humble-nvidia branch)
-git clone https://github.com/athackst/vscode_ros2_workspace.git -b humble-nvidia
+git clone https://github.com/SESASR-Course/vscode_ros2_workspace.git -b humble-nvidia
 ```
 
 ### 1.2.2 Modify the Dockerfile
