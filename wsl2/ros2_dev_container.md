@@ -24,13 +24,17 @@ This package will get you set up using ROS2 with VSCode as your IDE.
 
 ## 1. Setup VSCode ROS2 Workspace Template
 
-If you have an Nvidia GPU, and Nvidia Docker skip this step and go to [1.2](#12-download-the-template-for-ros2-nvidia-gpu)
+Open VSCode and go to the *Remote Explorer* tab. Then, connect to Ubuntu 22.04 clicking on the arrow.
+
+If you have an Nvidia GPU, and Nvidia Docker skip the next steps and go to [1.2](#12-download-the-template-for-ros2-nvidia-gpu)
+
+![open_wsl_remote](/dual_boot/images/open_wsl_remote.png)
 
 ## 1.1 Setup template for ROS2 (No Nvidia GPU)
 
 ### 1.1.1 Clone the repository
 
-Clone the following repository to your local machine:
+Open a terminal inside VSCode and clone the following repository to your local machine:
 
 ```bash
 
