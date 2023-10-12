@@ -28,7 +28,7 @@ Open VSCode and go to the *Remote Explorer* tab. Then, connect to Ubuntu 22.04 c
 
 If you have an Nvidia GPU, and Nvidia Docker skip the next steps and go to [1.2](#12-download-the-template-for-ros2-nvidia-gpu)
 
-![open_wsl_remote](/dual_boot/images/open_wsl_remote.png)
+![open_wsl_remote](/wsl2/images/open_wsl_remote.png)
 
 ## 1.1 Setup template for ROS2 (No Nvidia GPU)
 
