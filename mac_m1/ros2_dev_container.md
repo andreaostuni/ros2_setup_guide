@@ -53,8 +53,6 @@ FROM andreaostuni/ros2:humble-gazebo-arm
 
 This will install ROS2 with Gazebo and other dependencies.
 
-After this step and go to [2. Open the workspace in VSCode using Dev Containers](#2-open-the-workspace-in-vscode-using-dev-containers)
-
 ## 2. Open the workspace in VSCode using Dev Containers
 
 Open the ```vscode_ros2_workspace``` folder in VSCode (File -> Open Folder).
